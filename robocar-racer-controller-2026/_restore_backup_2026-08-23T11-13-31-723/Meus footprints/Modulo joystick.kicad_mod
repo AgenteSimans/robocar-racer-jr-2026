@@ -1,0 +1,145 @@
+(footprint "Modulo joystick"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Joystick"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "13b35375-d9d3-471a-aa93-1f9c2a401453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Modulo Joystick"
+		(at 0 -6.5 0)
+		(layer "F.Fab")
+		(uuid "1c2ea659-92c9-4bdc-8bca-08019fd4ce63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.54 0.92 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4db0312c-81c6-4b1b-8c64-d819485c9676")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.54 0.92 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3f23ee1-aa95-40b5-8879-fde3119889e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 0.92 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "861733cf-0fe8-4351-b236-4c5861e1c4da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -2.89)
+		(end -1.27 9.92)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73289381-bc6f-4dfc-a109-f221e43e649f")
+	)
+	(fp_line
+		(start -1.27 9.92)
+		(end 1.54 9.92)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "829ec05b-8b7f-424f-9664-002b1bbdf9ed")
+	)
+	(fp_line
+		(start 1.54 -2.89)
+		(end -1.27 -2.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e734aee4-c842-46e4-8a87-8ceba617229f")
+	)
+	(fp_line
+		(start 1.54 9.92)
+		(end 1.54 -2.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a59b2728-c999-4388-8002-dd242fcfa5b9")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -1.62)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d0c514e-fdcf-4515-91ea-7fb56998ad7e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0.92)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8f9c07e-7861-4f7a-931c-75b9ea70a4aa")
+	)
+	(pad "3" thru_hole circle
+		(at 0 3.46)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ebf759d-0e23-4553-a965-a0f0cdd09309")
+	)
+	(pad "4" thru_hole circle
+		(at 0 6)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7e7db9b-671a-4d03-8056-a3722ba36ade")
+	)
+	(pad "5" thru_hole circle
+		(at 0.04 8.42)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a922a49-ba4f-4c71-bbfa-92e308b2437e")
+	)
+)

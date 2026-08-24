@@ -1,0 +1,113 @@
+(footprint "Display i2c (com nomes)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "8 furos"
+		(at -2.54 -7.62 0)
+		(layer "F.SilkS")
+		(uuid "f82cba8c-fcdd-4004-bc46-f9a49d97cc6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "furos"
+		(at 0 4.445 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a9fa788-4af7-464f-bb4f-97c3ed28cbbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.46 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b19b428-4c51-41c9-829e-b0aeb81b0537")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.46 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06d9a05-fbf4-4902-bdaa-0440eaf23e04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.46 2.54 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9ceca05-8967-442d-ab17-55ae914f1b90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.16 -1.46)
+		(end 6.54 1.66)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "159d92c7-06f6-43c9-a856-9c4116d693ae")
+	)
+	(pad "3,3" thru_hole circle
+		(at -1.08 0)
+		(size 1.158 1.158)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "299c90c0-a1d4-477f-8710-60f4041b72b2")
+	)
+	(pad "GND" thru_hole rect
+		(at -3.62 0)
+		(size 1.158 1.158)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "06355266-0769-4a26-a637-bfe27b95b066")
+	)
+	(pad "SCL" thru_hole circle
+		(at 1.46 0)
+		(size 1.158 1.158)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1c65b1f0-b7d6-4573-806c-76b28de37640")
+	)
+	(pad "SDA" thru_hole circle
+		(at 4 0)
+		(size 1.158 1.158)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "419af954-3b2f-46e8-aeee-61aabd377453")
+	)
+)

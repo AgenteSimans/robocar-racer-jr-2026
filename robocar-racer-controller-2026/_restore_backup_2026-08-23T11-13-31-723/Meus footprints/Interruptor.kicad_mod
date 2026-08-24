@@ -1,0 +1,107 @@
+(footprint "Interruptor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Power1"
+		(at -2.41477 6.353354 0)
+		(layer "F.SilkS")
+		(uuid "955afca0-5d5d-4416-9a95-c2facba43891")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INTERRUPTOR"
+		(at -1.68 4.2 0)
+		(layer "F.Fab")
+		(uuid "8470e6f1-52d3-406b-96a1-316036cd8f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "3c0c868c-4e83-4fd4-a5fd-2c2ff64ccb64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "86e1d6fc-9de5-43d3-a2cf-36162d4818b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "0ed084d8-c80d-43ce-b984-8191d796d49b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -10.57 -4.94) (xy 6.4 -4.94) (xy 6.4 5.1) (xy -10.57 5.1)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8a522a19-9620-4393-9a68-6f440fb70ec0")
+	)
+	(pad "1" thru_hole oval
+		(at -6.95 -0.01)
+		(size 3.2 6.5)
+		(drill oval 1 4.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d8bfcec-ff77-477e-90d8-c4a102772862")
+	)
+	(pad "2" thru_hole oval
+		(at -2.26 0)
+		(size 3.2 6.5)
+		(drill oval 1 4.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a04f647-4f9b-4c53-9f24-970602cff8c5")
+	)
+	(model "C:/Temp/KiCAD Modelos extras/PRK22J5DBBNN--3DModel-STEP-96511.STEP"
+		(offset
+			(xyz -2.4 0 9.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
