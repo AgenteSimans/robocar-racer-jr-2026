@@ -709,6 +709,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -767,7 +779,7 @@
         "uuid": "fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
       }
     ],
-    "used_designators": "R17-18,J3-6,J9-14,U2,U4-7,M1,#PWR1-4,#PWR9-12,#PWR29-32,#PWR34-54,C5-6,A1-2,D6-7,SW1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
