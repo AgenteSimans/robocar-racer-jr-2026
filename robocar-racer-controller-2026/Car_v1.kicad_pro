@@ -548,7 +548,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/pn834/Documents/KiCad/Placa Robocar/Car_v1/",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Car_v1.glb",
