@@ -44,8 +44,8 @@ Dois estágios de conversão DC‑DC geram os rails usados pelo sistema:
 |------|-----------|----------|
 | **+5 V** (`Buck_out`) | Conversor **Buck** (`Buck_in` → `Buck_out`) | Lógica de sinal, **servo motor**, barramento do enlace |
 | **+3,3 V** | Regulação a partir de +5 V | **ESP32**, **GY‑87**, **ADS1115** |
-| **+8 V** | Estágio de conversão | Nó de referência / medição |
-| **+12 V** | Conversor **Step‑up** (`Step_up`) | **Potência do motor BLDC** via ESC (`Motor in`) |
+| **+8 V** | Bateria 2S |
+| **+12 V** | Bateria 3S |
 | **USB‑C 5 V** | Conector `Raspbery_usbc` | **Raspberry Pi** |
 
 > O **servo** recebe potência e sinal em 5 V (conector `J3`); o **motor/ESC** recebe a
