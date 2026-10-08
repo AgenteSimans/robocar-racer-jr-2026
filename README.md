@@ -107,7 +107,7 @@ Endereço I²C do ADS1115 com `ADDR` amarrado ao GND (**0x48**); `ALERT` usado c
 Blocos de baterias, entradas de motor/conversor Buck, barramento do Raspberry, conexões do
 GY‑87, enlace serial, ADS1115, divisores de tensão e LEDs de feedback.
 
-![Esquemático](images/Car_v1.pdf)
+![Esquemático](images/Car_v1.svg)
 
 ### Layout da PCB
 Posicionamento dos conectores de bateria e de potência, soquete do ESP32, trilhas de 12 V /
