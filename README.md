@@ -65,7 +65,7 @@ antes de chegar ao **ADS1115** — leitura muito mais estável que o ADC interno
 ### Esquemático (hierárquico)
 Blocos de alimentação, ADC, IMU, MCU e interfaces de potência.
 
-![Esquemático](images/esquematico.png)
+![Esquemático](images/esquematico.jpeg)
 
 ### Layout da PCB
 Posicionamento dos conectores de bateria, soquete do ESP32, trilhas de potência e saídas
