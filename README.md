@@ -61,10 +61,8 @@ lidas com resolução de 16 bits (muito mais estáveis que o ADC interno do ESP3
 
 | Canal | Origem medida | Sentido |
 |:-----:|---------------|---------|
-| **A0** | Bateria **3S** | Tensão do pack principal |
-| **A1** | Bateria **2S** / ESC | Tensão do pack auxiliar |
-| **A2** | Rail **+12 V** | Validação do Step‑up / potência do motor |
-| **A3** | Rail **+8 V** | Validação do estágio intermediário |
+| **A0** | Divisor de Tensão da Bateria 3S | Tensão da Bateria 3S |
+| **A1** | Divisor de Tensão da Bateria 2S | Tensão da Bateria 2S |
 
 Endereço I²C do ADS1115 com `ADDR` amarrado ao GND (**0x48**); `ALERT` usado conforme estratégia de firmware (polling ou interrupção).
 
