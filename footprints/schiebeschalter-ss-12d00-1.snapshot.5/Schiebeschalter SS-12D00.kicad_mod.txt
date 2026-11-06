@@ -1,0 +1,48 @@
+(footprint "Schiebeschalter SS-12D00" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F04D99)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.381 -3.175) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b60c50d1-225e-415c-8712-7acb5e3dc8ea)
+  )
+  (fp_text value "EG1218" (at 0 0) (layer "F.Fab")
+    (effects (font (size 0.787402 0.787402) (thickness 0.15)))
+    (tstamp 7e08f2a4-63d6-468b-bd8b-ec607077e023)
+  )
+  (fp_line (start 4.25 1.75) (end -4.25 1.75) (layer "F.SilkS") (width 0.2) (tstamp 35a9f71f-ba35-47f6-814e-4106ac36c51e))
+  (fp_line (start 4.25 -1.75) (end 4.25 1.75) (layer "F.SilkS") (width 0.2) (tstamp 5b34a16c-5a14-4291-8242-ea6d6ac54372))
+  (fp_line (start -4.25 1.75) (end -4.25 -1.75) (layer "F.SilkS") (width 0.2) (tstamp c094494a-f6f7-43fc-a007-4951484ddf3a))
+  (fp_line (start -4.25 -1.75) (end 4.25 -1.75) (layer "F.SilkS") (width 0.2) (tstamp c701ee8e-1214-4781-a973-17bef7b6e3eb))
+  (fp_line (start 1.75 0.8) (end -1.75 0.8) (layer "Dwgs.User") (width 0.2) (tstamp 15fe8f3d-6077-4e0e-81d0-8ec3f4538981))
+  (fp_line (start -1.75 0.8) (end -1.75 -0.8) (layer "Dwgs.User") (width 0.2) (tstamp 814763c2-92e5-4a2c-941c-9bbd073f6e87))
+  (fp_line (start -1.75 -0.8) (end 1.75 -0.8) (layer "Dwgs.User") (width 0.2) (tstamp 9b3c58a7-a9b9-4498-abc0-f9f43e4f0292))
+  (fp_line (start 1.75 -0.8) (end 1.75 0.8) (layer "Dwgs.User") (width 0.2) (tstamp e40e8cef-4fb0-4fc3-be09-3875b2cc8469))
+  (fp_rect (start 4.75 -2.25) (end -4.75 2.25) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b7dac85f-7f4a-467c-97a9-e1aea0272b0c))
+  (fp_circle (center -2.54 0) (end -1.54 0) (layer "User.1") (width 0.2) (fill none) (tstamp 101ef598-601d-400e-9ef6-d655fbb1dbfa))
+  (fp_circle (center 2.54 0) (end 3.54 0) (layer "User.1") (width 0.2) (fill none) (tstamp 6781326c-6e0d-4753-8f28-0f5c687e01f9))
+  (fp_circle (center 0 0) (end 1 0) (layer "User.1") (width 0.2) (fill none) (tstamp c8029a4c-945d-42ca-871a-dd73ff50a1a3))
+  (pad "1" thru_hole circle (at -2.54 0) (size 1.6764 1.6764) (drill 0.9) (layers *.Cu *.Mask) (tstamp 5740c959-93d8-47fd-8f68-62f0109e753d))
+  (pad "2" thru_hole circle (at 0 0) (size 1.6764 1.6764) (drill 0.9) (layers *.Cu *.Mask) (tstamp b6bcc3cf-50de-4a33-bc41-678825c1ecf2))
+  (pad "3" thru_hole circle (at 2.54 0) (size 1.6764 1.6764) (drill 0.9) (layers *.Cu *.Mask) (tstamp c3c93de0-69b1-4a04-8e0b-d78caf487c63))
+  (group "" (id e65b62be-e01b-4688-a999-1d1be370c4ae)
+    (members
+      101ef598-601d-400e-9ef6-d655fbb1dbfa
+      15fe8f3d-6077-4e0e-81d0-8ec3f4538981
+      35a9f71f-ba35-47f6-814e-4106ac36c51e
+      5b34a16c-5a14-4291-8242-ea6d6ac54372
+      6781326c-6e0d-4753-8f28-0f5c687e01f9
+      814763c2-92e5-4a2c-941c-9bbd073f6e87
+      9b3c58a7-a9b9-4498-abc0-f9f43e4f0292
+      c094494a-f6f7-43fc-a007-4951484ddf3a
+      c701ee8e-1214-4781-a973-17bef7b6e3eb
+      c8029a4c-945d-42ca-871a-dd73ff50a1a3
+      e40e8cef-4fb0-4fc3-be09-3875b2cc8469
+    )
+  )
+  (model "I:/Bastelprojekte/#Einzelne Bauteile/Schiebeschalter SS-12D00/Switch - Selector - SS12D00.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
