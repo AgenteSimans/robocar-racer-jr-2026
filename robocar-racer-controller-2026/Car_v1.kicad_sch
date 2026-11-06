@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Esquemático e PCB do projeto Robocar ")
-		(date "2025-11-19")
-		(comment 1 "Desenvolvida por Pablo Nunes de Oliveira <pno> para a competição Robocar Race 2025.")
+		(date "2026-11-06")
+		(comment 1 "Desenvolvida por Gabriel Vieria, Luciano Jose e Augusto para a competição Robocar Race 2026.")
 		(comment 2 "Segunda Versao:")
 	)
 	(lib_symbols
@@ -5983,16 +5983,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c85a92-5a55-4a34-a79b-f6bb3d7164d1")
-	)
-	(wire
-		(pts
 			(xy 34.29 180.34) (xy 34.29 177.8)
 		)
 		(stroke
@@ -6030,16 +6020,6 @@
 			(type default)
 		)
 		(uuid "65da0e2f-0abe-48b8-ba0e-c19e44d082f0")
-	)
-	(wire
-		(pts
-			(xy 125.73 82.55) (xy 125.73 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b993d5-e2f1-46af-a790-25baaff8090b")
 	)
 	(wire
 		(pts
@@ -6100,16 +6080,6 @@
 			(type default)
 		)
 		(uuid "708b34a9-9897-4a25-80fb-4e267cea29f3")
-	)
-	(wire
-		(pts
-			(xy 125.73 77.47) (xy 125.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ea05d6-eb2f-4a21-9043-910fcc586708")
 	)
 	(wire
 		(pts
@@ -6180,16 +6150,6 @@
 			(type default)
 		)
 		(uuid "7c93a6a0-eb98-49e0-b724-3f21933abfc7")
-	)
-	(wire
-		(pts
-			(xy 125.73 80.01) (xy 127 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6af406-94b1-491a-a50f-fa6ca88a7fe8")
 	)
 	(wire
 		(pts
@@ -8161,84 +8121,6 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 125.73 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "021133a4-5529-4ba5-beef-848e64dd4439")
-		(property "Reference" "#PWR056"
-			(at 125.73 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 88.9 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5fc401e0-d94e-4105-be9a-0f72b83cf578")
-		)
-		(instances
-			(project "Car_v1"
-				(path "/fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 113.03 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -8726,88 +8608,6 @@
 			(project "Car_v1"
 				(path "/fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 132.08 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e39ea76-b135-4644-8150-09bfe31936bd")
-		(property "Reference" "J15"
-			(at 134.62 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Step_up"
-			(at 134.62 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 132.08 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 132.08 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b319c951-6aa3-422c-a5e6-da7496269ab4")
-		)
-		(pin "2"
-			(uuid "031bdb47-c666-45d4-8983-32b86f864d2c")
-		)
-		(instances
-			(project "Car_v1"
-				(path "/fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -14958,84 +14758,6 @@
 			(project "Car_v1"
 				(path "/fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+8V")
-		(at 125.73 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ece3de5d-a8b7-4842-b396-969aa49d4b05")
-		(property "Reference" "#PWR057"
-			(at 125.73 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+8V"
-			(at 125.73 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 125.73 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6eb5ff3-0354-48dc-8de6-89a1371a86b8")
-		)
-		(instances
-			(project "Car_v1"
-				(path "/fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
