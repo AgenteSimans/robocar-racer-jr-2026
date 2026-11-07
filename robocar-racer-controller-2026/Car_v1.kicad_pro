@@ -39,7 +39,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.04,
+          "drill": 1.0,
           "height": 2.0,
           "width": 2.0
         },
@@ -548,7 +548,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Car_v1.glb",
@@ -779,7 +779,7 @@
         "uuid": "fdcd0e87-3ae3-486e-b149-cc6c16e32fcb"
       }
     ],
-    "used_designators": "SW1,#PWR4,#PWR9,D2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
